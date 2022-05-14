@@ -5,8 +5,7 @@
 
 .bg-img {
   position: absolute !important;
-  width: 100% !important;
-  height: auto !important;
+  width: 1920px !important;
 }
 
 .container-fluid {
@@ -138,7 +137,7 @@ margin-left: 3%;
 }
 
 .vv{
-    border-radius: 37px !important;
+    border-radius: 7px !important;
 }
 .row{
   padding:  0 0 2%  !important;
@@ -147,7 +146,7 @@ margin-left: 3%;
 .for{
   margin-top: 9% !important;
   height: auto;
-  width: 330px;
+  width: 350px;
   padding: 40px 40px;
   background-color: white;
   border-radius: 10px;
@@ -192,12 +191,12 @@ letter-spacing: 0.2px;
 }
 
 input{
-  padding: 11px 21px;
+  padding: 11px 17px;
   color: black !important;
   text-align: left;
   text-align: left;
   height: 50px;
-  width: 246px;
+  width: 256px;
   background: #F9F9F9;
   border: 1px solid #E6E6E6;
   border-radius: 5px;

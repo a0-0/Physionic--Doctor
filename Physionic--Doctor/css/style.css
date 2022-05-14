@@ -5,7 +5,7 @@
 
 .bg-img {
   position: absolute !important;
-  width: 1920px !important;
+  width: 100% !important;
 }
 
 .container-fluid {
@@ -27,7 +27,7 @@
 
 .btn-dod{
   margin-top: 20px;
-
+  border-radius: 37px !important;
   width: 190px;
   background: #23A6F0 !important;
   border-radius: 5px;
@@ -116,7 +116,7 @@ color: #FFFFFF;
 .btn-doed{
   margin-top: 20px;
   width: 190px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #FFFFFF !important;
   border-radius: 37px !important;
     color: white !important;
   height: 52px;
@@ -135,7 +135,10 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 margin-left: 3%;
 }
+.btn-doed:hover{
+  border: 2px solid #FFFFFF !important;
 
+}
 .vv{
     border-radius: 7px !important;
 }

@@ -1,0 +1,31 @@
+*{
+  color: #fff !important;
+}
+
+/* editing navbar */
+.nav-edit{
+  margin: 0 13%;
+  padding: 1% 0% !important;
+}
+
+/* nav - brand */
+.navbar-brand{
+  margin-right: 16% !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.1px !important;
+}
+
+/* items of navbar colection */
+.nav-link{
+    margin-right: 40px;
+}
+
+/* img for hero section */
+.img-fluid{
+  width: 100% ;
+}

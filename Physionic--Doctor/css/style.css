@@ -1,31 +1,143 @@
-*{
-  color: #fff !important;
+* {
+  color: #FFFFFF !important;
+}
+/* h1 */
+h1{
+  /* h1 */
+
+font-family: 'Montserrat', sans-serif !important;
+font-style: normal !important;
+font-weight: 800 !important;
+font-size: 58px !important;
+line-height: 80px !important;
+/* or 138% */
+
+letter-spacing: 0.2px !important;
 }
 
+/* h4 */
+h4{
+font-family: 'Montserrat' !important;
+font-style: normal !important;
+font-weight: 500 !important;
+font-size: 20px !important;
+line-height: 30px !important;
+/* or 150% */
+
+letter-spacing: 0.2px !important;
+
+/* light-text-color */
+
+color: #FFFFFF;
+}
+
+.edit-h4{
+  margin: 40px 0;
+}
+
+
 /* editing navbar */
-.nav-edit{
+.nav-edit {
   margin: 0 13%;
   padding: 1% 0% !important;
 }
 
 /* nav - brand */
-.navbar-brand{
+.navbar-brand {
   margin-right: 16% !important;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 700 !important;
   font-size: 24px !important;
   line-height: 32px !important;
   /* identical to box height, or 133% */
-
   letter-spacing: 0.1px !important;
 }
 
 /* items of navbar colection */
-.nav-link{
-    margin-right: 40px;
+.nav-link {
+  margin-right: 40px;
+  /* link */
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 200 !important;
+  font-size: 15px !important;
+  line-height: 32px !important;
+  /* identical to box height, or 171% */
+  text-align: center !important;
+  letter-spacing: 0.1px !important;
 }
 
 /* img for hero section */
-.img-fluid{
-  width: 100% ;
+.img-fluid {
+  width: 100%;
+}
+
+.btn-edit-sq {
+  /* btn-text */
+  padding: 15px 25px !important;
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  /* identical to box height, or 157% */
+  letter-spacing: 0.2px !important;
+  /* light-text-color */
+  color: #FFFFFF;
+  /* primary-color */
+  background: #23A6F0 !important;
+  border-radius: 5px !important;
+}
+
+.btn-edit-cer {
+  /* btn-text */
+  padding: 15px 36px !important;
+  border-radius: 37px !important;
+  /* btn-text */
+
+font-family: 'Montserrat' !important;
+font-style: normal !important;
+font-weight: 700 !important;
+font-size: 14px !important;
+line-height: 22px !important;
+/* identical to box height, or 157% */
+
+text-align: center !important;
+letter-spacing: 0.2px !important;
+}
+.btn-color{
+  background: #23A6F0 !important;
+}
+.color-black:hover{
+  color: black !important;
+}
+
+i {
+  padding-left: 15px;
+}
+
+.down-btn{
+  margin-right: 5% !important;
+}
+
+
+/* to margin the width of sections */
+.marg{
+  margin: 0 13% !important;
+
+}
+#herosection{
+  margin-top: 6% !important;
+}
+
+.text-hero-section{
+  margin-top: 13% !important;
+  width: 35% !important;
+
+}
+
+
+.book-form{
+  height: 600px;
+  width: 400px;
+  background-color: #fff;
 }

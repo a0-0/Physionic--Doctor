@@ -1,40 +1,53 @@
 * {
   color: #FFFFFF !important;
 }
+
+body {
+  background: lightblue !important;
+}
+
 /* h1 */
-h1{
+h1 {
   /* h1 */
+  font-family: 'Montserrat', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 800 !important;
+  font-size: 58px !important;
+  line-height: 80px !important;
+  /* or 138% */
+  letter-spacing: 0.2px !important;
+}
 
-font-family: 'Montserrat', sans-serif !important;
-font-style: normal !important;
-font-weight: 800 !important;
-font-size: 58px !important;
-line-height: 80px !important;
-/* or 138% */
-
-letter-spacing: 0.2px !important;
+h3 {
+  /* h3 */
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  /* identical to box height, or 133% */
+  text-align: center !important;
+  letter-spacing: 0.1px !important;
+  /* text-color */
+  color: #252B42 !important;
 }
 
 /* h4 */
-h4{
-font-family: 'Montserrat' !important;
-font-style: normal !important;
-font-weight: 500 !important;
-font-size: 20px !important;
-line-height: 30px !important;
-/* or 150% */
-
-letter-spacing: 0.2px !important;
-
-/* light-text-color */
-
-color: #FFFFFF;
+h4 {
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  /* or 150% */
+  letter-spacing: 0.2px !important;
+  /* light-text-color */
+  color: #FFFFFF;
 }
 
-.edit-h4{
+.edit-h4 {
   margin: 40px 0;
 }
-
 
 /* editing navbar */
 .nav-edit {
@@ -68,7 +81,7 @@ color: #FFFFFF;
 
 /* img for hero section */
 .img-fluid {
-  width: 100%;
+  width: 100% !important;
 }
 
 .btn-edit-sq {
@@ -93,21 +106,21 @@ color: #FFFFFF;
   padding: 15px 36px !important;
   border-radius: 37px !important;
   /* btn-text */
-
-font-family: 'Montserrat' !important;
-font-style: normal !important;
-font-weight: 700 !important;
-font-size: 14px !important;
-line-height: 22px !important;
-/* identical to box height, or 157% */
-
-text-align: center !important;
-letter-spacing: 0.2px !important;
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+  /* identical to box height, or 157% */
+  text-align: center !important;
+  letter-spacing: 0.2px !important;
 }
-.btn-color{
+
+.btn-color {
   background: #23A6F0 !important;
 }
-.color-black:hover{
+
+.color-black:hover {
   color: black !important;
 }
 
@@ -115,29 +128,83 @@ i {
   padding-left: 15px;
 }
 
-.down-btn{
-  margin-right: 5% !important;
+.down-btn {
+  margin: 4% 3% !important;
 }
-
 
 /* to margin the width of sections */
-.marg{
+.marg {
   margin: 0 13% !important;
-
 }
-#herosection{
+
+#herosection {
   margin-top: 6% !important;
 }
 
-.text-hero-section{
+.text-hero-section {
   margin-top: 13% !important;
   width: 35% !important;
+}
+
+.book-form {
+  border-radius: 10px;
+  margin-top: 13%;
+  width: 330px;
+  height: 610px;
+  padding: 40px 30px;
+  text-align: center;
+  background-color: #fff;
+}
+
+form {
+  margin: 10% 0;
+}
+
+label {
+  padding: 10px 0;
+  color: black !important;
+  text-align: left !important;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.2px;
+}
+
+input {
+  padding: 11px 17px;
+  color: black !important;
+  text-align: left;
+  text-align: left;
+  height: 50px;
+  width: 256px;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+}
+
+select {
+  padding: 11px 21px;
+    color: black !important;
+    text-align: left;
+    height: 50px;
+    width: 246px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+option{
+  color: #737373 !important;
+  padding: 11px 21px 11px 0;
+
 
 }
 
-
-.book-form{
-  height: 600px;
-  width: 400px;
-  background-color: #fff;
+.float{
+  float: left;
+}
+.m-edit{
+  margin: 20px auto !important;
 }

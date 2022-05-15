@@ -132,11 +132,6 @@ i {
   margin: 4% 3% !important;
 }
 
-/* to margin the width of sections */
-.marg {
-  margin: 0 13% !important;
-}
-
 #herosection {
   margin-top: 6% !important;
 }
@@ -165,12 +160,12 @@ label {
   color: black !important;
   text-align: left !important;
   font-family: 'Montserrat';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-letter-spacing: 0.2px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  letter-spacing: 0.2px;
 }
 
 input {
@@ -187,24 +182,80 @@ input {
 
 select {
   padding: 11px 21px;
-    color: black !important;
-    text-align: left;
-    height: 50px;
-    width: 246px;
-    background: #F9F9F9;
-    border: 1px solid #E6E6E6;
-    border-radius: 5px;
+  color: black !important;
+  text-align: left;
+  height: 50px;
+  width: 246px;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
 }
-option{
+
+option {
   color: #737373 !important;
   padding: 11px 21px 11px 0;
-
-
 }
 
-.float{
+.float {
   float: left;
 }
-.m-edit{
+
+.m-edit {
   margin: 20px auto !important;
+}
+
+/* 2nd section */
+#second-section {
+  color: black !important;
+  text-align: center;
+  padding: 120px 150px;
+}
+
+.sec2 {
+  text-align: center;
+  width: 50% !important;
+}
+
+.color {
+  color: #252B42 !important;
+}
+
+.color2 {
+  color: #737373 !important;
+}
+
+.color3{
+  background: #8EC2F2;
+
+}
+
+/* to margin the width of sections */
+.marg {
+  margin: 0 13% !important;
+}
+
+.merg1{
+  margin: 100px 13% !important;
+}
+
+.pic{
+  padding: 54px ;
+  gap: 15px;
+  border-radius: 7px;
+}
+
+.text{
+  padding: 50px 10%;
+  background: white;
+  color: black;
+  text-align:left;
+  border-radius: 3px;
+
+}
+h5{
+  color: black !important;
+}
+h6{
+  color: black !important;
+
 }

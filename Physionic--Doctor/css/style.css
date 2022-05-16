@@ -445,26 +445,58 @@ h2 {
   width: 360px !important;
 }
 
-.last-section{
+.last-section {
   background: #fff;
 }
 
-.lol{
+.lol {
   /* second-text-color */
   text-align: left !important;
   text-decoration: none !important;
-
   color: #737373 !important;
 }
 
 .popo {
+
   text-align: left !important;
 }
-.fa-brands{
+
+.fa-brands {
   color: #23A6F0 !important;
   padding: 7px;
 }
-.lolwa{
+
+.lolwa {
   padding: 10px 0;
   width: 213px !important;
+}
+.fo{
+  text-align: center;
+}
+
+.col-lg-3{
+  margin: 2% 0 !important;
+}
+.coco{
+  padding: 25px;
+  text-align: center;
+}
+
+.last-text{
+  margin: auto;
+  width: 25%;
+  /* h6 */
+
+font-family: 'Montserrat' !important;
+font-style: normal !important;
+font-weight: 600 !important;
+font-size: 14px !important;
+line-height: 24px !important;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px !important;
+
+/* second-text-color */
+
+color: #737373 !important;
 }

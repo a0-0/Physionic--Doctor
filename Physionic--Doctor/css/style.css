@@ -6,42 +6,33 @@ body {
   background: #FAFAFA !important;
 }
 
-/* h1 */
 h1 {
-  /* h1 */
   font-family: 'Montserrat', sans-serif !important;
   font-style: normal !important;
   font-weight: 800 !important;
   font-size: 58px !important;
   line-height: 80px !important;
-  /* or 138% */
   letter-spacing: 0.2px !important;
 }
 
 h3 {
-  /* h3 */
   font-family: 'Montserrat' !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 24px !important;
   line-height: 32px !important;
-  /* identical to box height, or 133% */
   text-align: center !important;
   letter-spacing: 0.1px !important;
-  /* text-color */
   color: #252B42 !important;
 }
 
-/* h4 */
 h4 {
   font-family: 'Montserrat' !important;
   font-style: normal !important;
   font-weight: 500 !important;
   font-size: 20px !important;
   line-height: 30px !important;
-  /* or 150% */
   letter-spacing: 0.2px !important;
-  /* light-text-color */
   color: #FFFFFF;
 }
 
@@ -85,37 +76,27 @@ h4 {
   height: inherit !important;
 }
 
-/* .title{
-  height: 817px !important ;
-} */
 .btn-edit-sq {
-  /* btn-text */
   padding: 15px 25px !important;
   font-family: 'Montserrat' !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 22px !important;
-  /* identical to box height, or 157% */
   letter-spacing: 0.2px !important;
-  /* light-text-color */
   color: #FFFFFF;
-  /* primary-color */
   background: #23A6F0 !important;
   border-radius: 5px !important;
 }
 
 .btn-edit-cer {
-  /* btn-text */
   padding: 15px 36px !important;
   border-radius: 37px !important;
-  /* btn-text */
   font-family: 'Montserrat' !important;
   font-style: normal !important;
   font-weight: 700 !important;
   font-size: 14px !important;
   line-height: 22px !important;
-  /* identical to box height, or 157% */
   text-align: center !important;
   letter-spacing: 0.2px !important;
 }
@@ -172,7 +153,6 @@ label {
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 171% */
   letter-spacing: 0.2px;
 }
 
@@ -413,4 +393,8 @@ h6 {
 .edd {
   margin-top: 40px;
   width: 246px;
+}
+
+.dodee{
+  margin: 15% 20% !important;
 }

@@ -3,7 +3,7 @@
 }
 
 body {
-  background: #fff !important;
+background: #FAFAFA !important;
 }
 
 /* h1 */
@@ -222,6 +222,7 @@ option {
 .sec2 {
   text-align: center;
   width: 50% !important;
+  margin-bottom: 100px;
 }
 
 .color {
@@ -285,8 +286,8 @@ h6 {
 }
 
 .col-lg-4 {
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
+  margin-top: 15px ;
+  margin-bottom: 15px
 }
 
 .section3 {
@@ -294,11 +295,23 @@ h6 {
 }
 
 .wi {
-  margin: 0 20%;
+  margin: 0 20% !important;
+}
+/* .section4{
+  margin: 0 20% !important;
+  text-align: center !important;
+
+} */
+.wis{
+  /* margin: auto; */
+  margin: 80px 20% !important;
+  text-align: center !important;
+
 }
 
+
 .text1 {
-  padding: 50px 10% 30px 10%;
+  padding: 30px 10% 30px 10%;
   background: white;
   color: black;
   text-align: left;
@@ -315,4 +328,19 @@ h6 {
 .memo {
   margin-top: 10px;
   width: 60px;
+}
+.clas{
+  margin-top: 15% !important;
+  margin-bottom: 5% !important;
+}
+
+.text2{
+  padding: 30px 3% 30px 3% !important;
+  background: white;
+  color: black;
+  text-align: left;
+  border: 1px solid #fff;
+  border-radius: 9px;
+  margin: 3% 1.5%;
+  width: 340px !important;
 }

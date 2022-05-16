@@ -3,7 +3,7 @@
 }
 
 body {
-  background: lightblue !important;
+  background: #fff !important;
 }
 
 /* h1 */
@@ -82,7 +82,11 @@ h4 {
 /* img for hero section */
 .img-fluid {
   width: 100% !important;
+  height: inherit !important;
 }
+/* .title{
+  height: 817px !important ;
+} */
 
 .btn-edit-sq {
   /* btn-text */
@@ -137,13 +141,15 @@ i {
 }
 
 .text-hero-section {
-  margin-top: 13% !important;
+  margin-top: 8% !important;
   width: 35% !important;
 }
-
+.navbar-toggler{
+  color: white !important;
+}
 .book-form {
   border-radius: 10px;
-  margin-top: 13%;
+  margin-bottom: 3%;
   width: 330px;
   height: 610px;
   padding: 40px 30px;
@@ -224,9 +230,12 @@ option {
   color: #737373 !important;
 }
 
-.color3{
+.color3 {
   background: #8EC2F2;
+}
 
+.black{
+  color: black !important;
 }
 
 /* to margin the width of sections */
@@ -234,28 +243,40 @@ option {
   margin: 0 13% !important;
 }
 
-.merg1{
+.merg1 {
   margin: 100px 13% !important;
 }
 
-.pic{
-  padding: 54px ;
+.pic {
+  padding: 40px 15px;
   gap: 15px;
   border-radius: 7px;
 }
 
-.text{
+.text {
   padding: 50px 10%;
   background: white;
   color: black;
-  text-align:left;
-  border-radius: 3px;
-
+  text-align: left;
+  border: 1px solid  #8EC2F2;
+  border-radius:  5px;
 }
-h5{
+
+h5 {
   color: black !important;
 }
-h6{
-  color: black !important;
 
+h6 {
+  color: black !important;
+}
+.FF i {
+  margin-right: 15px;
+  padding: 20px;
+  background-color: white !important;
+  color: #8EC2F2 !important;
+  border-radius: 100%;
+}
+
+.col-lg-4{
+  margin-top: 50px !important;
 }

@@ -3,7 +3,7 @@
 }
 
 body {
-background: #FAFAFA !important;
+  background: #FAFAFA !important;
 }
 
 /* h1 */
@@ -286,7 +286,7 @@ h6 {
 }
 
 .col-lg-4 {
-  margin-top: 15px ;
+  margin-top: 15px;
   margin-bottom: 15px
 }
 
@@ -297,18 +297,11 @@ h6 {
 .wi {
   margin: 0 20% !important;
 }
-/* .section4{
-  margin: 0 20% !important;
-  text-align: center !important;
 
-} */
-.wis{
-  /* margin: auto; */
+.wis {
   margin: 80px 20% !important;
   text-align: center !important;
-
 }
-
 
 .text1 {
   padding: 30px 10% 30px 10%;
@@ -329,12 +322,13 @@ h6 {
   margin-top: 10px;
   width: 60px;
 }
-.clas{
+
+.clas {
   margin-top: 15% !important;
   margin-bottom: 5% !important;
 }
 
-.text2{
+.text2 {
   padding: 30px 3% 30px 3% !important;
   background: white;
   color: black;
@@ -343,4 +337,80 @@ h6 {
   border-radius: 9px;
   margin: 3% 1.5%;
   width: 340px !important;
+}
+
+.text3 {
+  padding: 30px 3% 30px 3% !important;
+  background: white;
+  color: black !important;
+  text-align: center;
+  border: 1px solid #23A6F0;
+  border-radius: 9px;
+  width: 340px !important;
+}
+
+.color7 {
+  background-color: #252B42;
+}
+
+.color8 {
+  color: #FFFFFF !important;
+}
+
+.fa-check {
+  background-color: #2DC071 !important;
+  color: white;
+  border-radius: 100%;
+  padding: 10px;
+}
+
+.float-l {
+  padding: 10px 0;
+  float: left !important;
+  text-align: left !important;
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.2px !important;
+  color: #252B42 !important;
+}
+
+.float-l2 {
+  float: left !important;
+  padding: 10px 0;
+  text-align: left !important;
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  letter-spacing: 0.2px !important;
+}
+
+.ppp {
+  padding: 20px 0;
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center !important;
+  letter-spacing: 0.1px !important;
+  color: #737373 !important;
+}
+
+.fff {
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  line-height: 32px !important;
+  letter-spacing: 0.1px !important;
+}
+
+.edd {
+  margin-top: 40px;
+  width: 246px;
 }

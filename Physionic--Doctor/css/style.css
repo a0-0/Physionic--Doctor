@@ -399,53 +399,72 @@ h6 {
   margin: 15% 20% !important;
 }
 
-.sectio6{
+.sectio6 {
   background: #252B42;
 }
 
-.gogo{
-  margin: 0% 20% !important;
+.gogo {
+  margin: 0% 17% !important;
   padding: 5% 2% !important;
 }
 
-.why{
+.why {
   width: 237px !important;
 }
 
-h2{
+h2 {
   font-family: 'Montserrat' !important;
-font-style: normal !important;
-font-weight: 700 !important;
-font-size: 40px !important;
-line-height: 57px !important;
-/* identical to box height, or 142% */
-
-letter-spacing: 0.2px !important;
-
-/* light-text-color */
-
-color: #FFFFFF !important;
-}
-.hh{
-  font-family: 'Montserrat' !important;
-font-style: normal !important;
-font-weight: 500 !important;
-font-size: 14px !important;
-line-height: 20px !important;
-/* or 143% */
-
-letter-spacing: 0.2px !important;
-
-/* light-text-color */
-
-color: #FFFFFF !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  line-height: 57px !important;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.2px !important;
+  /* light-text-color */
+  color: #FFFFFF !important;
 }
 
-.gango{
+.hh {
+  font-family: 'Montserrat' !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  /* or 143% */
+  letter-spacing: 0.2px !important;
+  /* light-text-color */
+  color: #FFFFFF !important;
+}
+
+.gango {
   width: 450px !important;
 }
 
-.input-group{
+.input-group {
   margin: 28px 0;
   width: 360px !important;
+}
+
+.last-section{
+  background: #fff;
+}
+
+.lol{
+  /* second-text-color */
+  text-align: left !important;
+  text-decoration: none !important;
+
+  color: #737373 !important;
+}
+
+.popo {
+  text-align: left !important;
+}
+.fa-brands{
+  color: #23A6F0 !important;
+  padding: 7px;
+}
+.lolwa{
+  padding: 10px 0;
+  width: 213px !important;
 }

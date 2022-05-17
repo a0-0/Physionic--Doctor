@@ -216,6 +216,9 @@ option {
 .color3 {
   background: #8EC2F2;
 }
+.a{
+  background-repeat: no-repeat;
+}
 
 .color-p {
   color: #737373 !important;
